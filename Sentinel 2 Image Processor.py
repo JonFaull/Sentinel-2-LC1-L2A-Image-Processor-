@@ -309,7 +309,7 @@ for timePeriod_location in projectFolder:
         band4 = GetBand(4, Cropped_Images_L1C)
         band8 = GetBand(8, Cropped_Images_L1C)
 
-
+        resolutionName = "L1C"
 
         TrueColourImg(SAVE_Location)
         FalseColourRedImg(SAVE_Location)
